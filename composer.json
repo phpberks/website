@@ -1,0 +1,17 @@
+{
+    "name": "phpberks/website",
+    "description": "PHP Berkshire website",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher Hoult",
+            "email": "choult@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.6"
+    }
+}
