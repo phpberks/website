@@ -14,7 +14,7 @@ require_once('../vendor/autoload.php');
 $app = new \Slim\Slim();
 
 $app->get('/', function() use ($app) {
-    $app->redirect('Location: http://www.meetup.com/PHP-Berkshire/', 302);
+    $app->redirect('http://www.meetup.com/PHP-Berkshire/', 302);
 });
 
 $app->run();
