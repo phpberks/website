@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">= 5.3",
-	"slim/slim": "2.*"
+    	"slim/slim": "2.*"
     },
     "require-dev": {
         "php": ">= 5.4",
