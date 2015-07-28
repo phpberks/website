@@ -9,6 +9,12 @@
  * file that was distributed with this source code.
  */
 
-header('Location: http://www.meetup.com/PHP-Berkshire/');
+require_once('../vendor/autoload.php');
 
-exit;
+$app = new \Slim\Slim();
+
+$app->get('/', function() use ($app) {
+    $app->redirect('http://www.meetup.com/PHP-Berkshire/', 302);
+});
+
+$app->run();

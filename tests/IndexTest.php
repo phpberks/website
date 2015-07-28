@@ -21,7 +21,6 @@ class IndexTest extends PHPUnit_Framework_TestCase
 
         $header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
         $header = trim(substr($response, 0, $header_size));
-
         $this->assertContains('Location: http://www.meetup.com/PHP-Berkshire/', $header);
     }
 }
