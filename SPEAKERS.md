@@ -1,5 +1,5 @@
 Date | Location | Talk 1 (~20 mins) | Talk 2 (~40 mins)
--------------------------------------------------------
+-----|----------|-------------------|------------------
 Wednesday, April 15, 2015 | Austin Fraser | Stanko Marcovic: "Work Smarter: Tips to improve your job - and get the next one" | Christopher Hoult: "HTTP: The basics"
 Wednesday, May 20, 2015 | Austin Fraser | Andrew Carter: "Here Be Dragons - PHP at its Limits" | Rob Allen: "Getting started with Slim 3"
 Wednesday, June 17, 2015 | Austin Fraser | Tom Hickey: "Generating Simple Responsive Images in PHP" | Stuart Herbert: "The Mad Scientist's Guide To Testing Code"
